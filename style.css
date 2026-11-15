@@ -1,0 +1,54 @@
+/* Estilo geral */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 65px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #232323;
+}
+
+/* Espaço para o menu fixo */
+.cabecalho {
+    background-color: #331857;
+    color: white;
+    padding: 130px 20px 70px;
+}
+
+.cabecalho h1 {
+    font-weight: bold;
+}
+
+section h2 {
+    color: #340079;
+}
+
+/* RECURSO NOVO: animação suave ao passar o mouse nos projetos */
+.projeto-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.projeto-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Cartões da seção de habilidades */
+.habilidade-card {
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.habilidade-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.linguagem-img {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+}

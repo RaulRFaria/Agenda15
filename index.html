@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Raul Faria</title>
+
+    <!-- Bootstrap: estilos prontos -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Meu CSS: deve vir depois do Bootstrap -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Menu de navegação -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#inicio">Raul Faria</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#menu" aria-controls="menu" aria-expanded="false"
+                    aria-label="Abrir menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#perfil">Perfil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                </ul>
+            </div>
+            </div>
+            </nav>
+
+    <header id="inicio" class="cabecalho text-center">
+        <div class="container">
+            <h1>Meu Portfólio</h1>
+            <p class="lead">Olá! Eu sou Raul Faria.</p>
+            <a class="btn btn-light" href="#projetos">Conheça meus projetos</a>
+        </div>
+    </header>
+
+    <!-- perfil -->
+    <section id="perfil" class="container py-5">
+        <h2 class="mb-3">Perfil</h2>
+        <p>
+            Estou aprendendo Python, HTML, CSS e Bootstrap, e criando projetos para praticar
+            lógica de programação e desenvolvimento web. Este portfólio reúne alguns dos meus trabalhos
+            e mostra o que venho estudando.
+        </p>
+    </section>
+
+    <!-- projetos -->
+    <section id="projetos" class="bg-light py-5">
+        <div class="container">
+            <h2 class="mb-4">Projetos</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <article class="card h-100 projeto-card">
+                        <div class="card-body">
+                            <h3 class="h5 card-title">Meus Sites Favoritos</h3>
+                            <p class="card-text">Página de estudo com links e imagens de sites que utilizo.</p>
+                            <span class="badge text-bg-primary">HTML e CSS</span>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4">
+                    <article class="card h-100 projeto-card">
+                        <div class="card-body">
+                            <h3 class="h5 card-title">Portal de Entretenimento</h3>
+                            <p class="card-text">Página com seções de filmes, música, games e tecnologia.</p>
+                            <span class="badge text-bg-primary">HTML e CSS</span>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4">
+                    <article class="card h-100 projeto-card">
+                        <div class="card-body">
+                            <h3 class="h5 card-title">Organiza+</h3>
+                            <p class="card-text">Proposta acadêmica de aplicativo para organizar tarefas, prazos e lembretes.</p>
+                            <span class="badge text-bg-secondary">Planejamento de projeto</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recurso novo -->
+    <section id="habilidades" class="container py-5">
+        <h2 class="mb-3">Habilidades</h2>
+        <p>Estas são algumas das linguagens que venho estudando até o momento:</p>
+
+        <div class="row g-4 mt-1">
+            <div class="col-md-4">
+                <article class="card h-100 text-center habilidade-card p-3">
+                    <img
+                        src="imagens/python.svg"
+                        class="linguagem-img mx-auto mb-3"
+                        alt="Logo da linguagem Python">
+                    <div class="card-body">
+                        <h3 class="h5 card-title">Python</h3>
+                        <p class="card-text">Uso em lógica de programação, exercícios e pequenos projetos.</p>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-md-4">
+                <article class="card h-100 text-center habilidade-card p-3">
+                    <img
+                        src="imagens/html.svg"
+                        class="linguagem-img mx-auto mb-3"
+                        alt="Logo da linguagem HTML">
+                    <div class="card-body">
+                        <h3 class="h5 card-title">HTML</h3>
+                        <p class="card-text">Uso para estruturar páginas, textos, imagens, links e seções do site.</p>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-md-4">
+                <article class="card h-100 text-center habilidade-card p-3">
+                    <img
+                        src="imagens/css.svg"
+                        class="linguagem-img mx-auto mb-3"
+                        alt="Logo da linguagem CSS">
+                    <div class="card-body">
+                        <h3 class="h5 card-title">CSS</h3>
+                        <p class="card-text">Uso para cores, layout, organização visual e efeitos de estilo.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- contato -->
+    <section id="contato" class="bg-light py-5">
+        <div class="container text-center">
+            <h2 class="mb-3">Contato</h2>
+            <p>Quer entrar em contato comigo? Envie uma mensagem por e-mail.</p>
+            <!-- TROQUE seuemail@exemplo.com PELO SEU E-MAIL ANTES DE PUBLICAR -->
+            <a class="btn btn-primary" href="mailto:fariaraul20@gmail.com">Enviar e-mail</a>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">Portfólio de Raul Faria</p>
+    </footer>
+
+    <!-- Bootstrap: faz o menu funcionar no celular -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
